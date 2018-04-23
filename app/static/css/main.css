@@ -1,0 +1,45 @@
+/* Temperature Views */
+.tempIcon{
+    position: absolute;
+    width: 69;
+    height: 79;
+}
+.tempIMG{
+    max-width: 100%;
+    max-height: 100%;
+}
+.tempSensor{
+    position: absolute;
+    left: 20%;
+    top: 38%;
+}
+
+/* Oil Level Bar Indicator */
+#myProgress{
+    left: 650;
+    top: 150;
+    transform: rotate(180deg);
+    width: 50px;
+    height: 300;
+    border:solid;
+    background-color: white;
+    position: absolute;
+}
+#oilLevelBar{
+    width: 50px;
+    height: 1%;
+    background-color: black;
+}
+#percentDIV{
+    left: 665;
+    top: 460;
+    position: absolute;
+}
+#lblOilLevel{
+    left: 630;
+    top: 130;
+    position: absolute;
+}
+#percentLabel{
+    font-size: 20px;
+}
