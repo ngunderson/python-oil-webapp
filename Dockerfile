@@ -47,6 +47,8 @@ RUN python3 setup.py install && python3 -m pip install -e .
 
 WORKDIR /
 
+RUN apt-get update && apt-get install -y emacs-nox
+
 ENV STATIC_INDEX 1
 
 COPY ./app /app
